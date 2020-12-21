@@ -20,25 +20,25 @@ You can run the project using gradle but make sure it is installed in your machi
 You can run the application directly from intellij but make sure you are using Java 11
 
 Start the application from JAR file  
-```
-$ java -jar build/libs/trending-0.0.1-SNAPSHOT.jar
-```
+    ```
+    $ java -jar build/libs/trending-0.0.1-SNAPSHOT.jar
+    ```
 
 #### Docker
-1. You can run the project through docker either by building the image from Dockerfile then running the container through the following commands
-```
-docker build -t terndingrepos .
-```
-```
-docker run -p 8080:8080 terndingrepos
-```
+- You can run the project through docker either by building the image from Dockerfile then running the container through the following commands
+    ```
+    docker build -t terndingrepos .
+    ```
+    ```
+    docker run -p 8080:8080 terndingrepos
+    ```
 ## Usage & available end-points
 There are five end-points available in this project
 
 | Method        | Endpoint                          | Body            |
 | ------------- |:---------------------------------:| --------------- |   
-| GET           | localhost:8080/api/v1/languages  | no body          |
-|               |                                   |                 |
+| GET           | localhost:8080/api/v1/languages   | no body          |
+
 
 - By using your favorite HTTP client **I recommend using POSTMAN** or by using cURL or Swagger, you can use and test the endpoint.
 
