@@ -6,6 +6,9 @@
 1. The task is implemented using Java as programming language and [Spring boot](http://spring.io/projects/spring-boot) as back-end framework.
 2. I used [IntelliJ IDEA](https://www.jetbrains.com/idea/) as IDE.
 
+## Dependencies 
+- Java 11
+- [Lombok](https://projectlombok.org/)
 ## Installation and setup
 1. Unzip the compressed file to any where on your computer if you download or just clone the repository.
 2. Navigate to the cloned/downloaded folder and open it using your favourite IDE but but I prefer [IntelliJ IDEA](https://www.jetbrains.com/idea/)
@@ -16,7 +19,7 @@
 You can run the project using gradle but make sure it is installed in your machine or configured in your IDE through the following command
 `$ mvn spring-boot:run` 
 
-#### IDE -> Intellij
+#### IDE - Jetbrains Intellij
 You can run the application directly from intellij but make sure you are using Java 11
 
 Start the application from JAR file  
@@ -46,13 +49,14 @@ There are five end-points available in this project
 The available end-point is documented by swagger through this link 
 
 - `http://localhost:8080/swagger-ui.html`
+- `http://gemographytrendingrepos-env.eba-knpd42qx.us-east-1.elasticbeanstalk.com/swagger-ui.html#/`
 
 ## Deployment
-* The project is deployed on [Amazon web services](https://aws.amazon.com/) [using Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/) ![AWS deployment](/docs/AWS-deployment.png).
+* The project is deployed on [Amazon web services](https://aws.amazon.com/) [using Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/)
 * AWS endpoint 
-```$xslt
-
-```
+    ```
+    http://gemographytrendingrepos-env.eba-knpd42qx.us-east-1.elasticbeanstalk.com/api/v1/languages/
+    ```
 
 ## Author
 [Mohamed Kashif](mailto:mohammedd.kashiff@gmail.com)
